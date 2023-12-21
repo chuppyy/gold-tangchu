@@ -3,7 +3,7 @@ module.exports = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "api.goldstarassets.com",
+        hostname: "api.sportsandtravelonline.com",
         port: "",
         pathname: "/**",
       },
