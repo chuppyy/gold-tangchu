@@ -1,7 +1,7 @@
 // check width
 window.addEventListener("load", function () {
     console.log("xxx", window.innerWidth)
-    if (window.innerWidth <= 500) {
+    if (window.innerWidth <= 0) {
 
         // Giua bai mgid
 
@@ -44,7 +44,7 @@ window.addEventListener("load", function () {
 
     }
     //Destop
-    else {
+    else if (window.innerWidth <= 0){
         // Giua bai mgid
 
         // Chọn thẻ div có ID "qc"
