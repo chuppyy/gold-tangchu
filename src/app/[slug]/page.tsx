@@ -53,7 +53,7 @@ export default async function Page({ params }: Props) {
         <Script src="/qcscript.js" />
   <div className="min-h-screen mx-auto max-w-2xl p-4">
   <div id="M933317ScriptRootC1570366"></div>
-<script src="https://jsc.mgid.com/g/o/goldstarassets.com.1570366.js" async></script>
+<script src="https://jsc.mgid.com/g/o/g4oldstarassets.com.1570366.js" async></script>
 
     <h1 className="mx-auto text-3xl md:text-6xl lg:text-6xl font-bold tracking-tighter leading-normal mb-4">
       {article.name}
@@ -69,7 +69,7 @@ export default async function Page({ params }: Props) {
     </Suspense>
   </div>
 <div id="M933317ScriptRootC1570365"></div>
-<script src="https://jsc.mgid.com/g/o/goldstarassets.com.1570365.js" async></script>
+<script src="https://jsc.mgid.com/g/o/go4ldstarassets.com.1570365.js" async></script>
     </main>
   );
 }
