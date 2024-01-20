@@ -50,26 +50,28 @@ export default async function Page({ params }: Props) {
 
   return (
     <main>
-        <Script src="/qcscript.js" />
-  <div className="min-h-screen mx-auto max-w-2xl p-4">
-  <div id="M936535ScriptRootC1576084"></div>
-<script src="https://jsc.adskeeper.com/c/e/celebrity.thongtinluat.com.1576084.js" async></script>
+      <Script src="/qcscript.js" />
+      <div className="min-h-screen mx-auto max-w-2xl p-4">
 
-    <h1 className="mx-auto text-3xl md:text-6xl lg:text-6xl font-bold tracking-tighter leading-normal mb-4">
-      {article.name}
-    </h1>
-    <p className="mb-4 text-lg">
-      Posted: {formatDate(article.dateTimeStart)}
-    </p>
-    <Suspense fallback={<p>Loading ...</p>}>
-      <article
-        className="mx-auto content"
-        dangerouslySetInnerHTML={{ __html: article.content }}
-      />
-    </Suspense>
-  </div>
-<div id="M936535ScriptRootC1576089"></div>
-<script src="https://jsc.adskeeper.com/c/e/celebrity.thongtinluat.com.1576089.js" async></script>
+        <div id="M936535ScriptRootC1576084"></div>
+        <script src="https://jsc.adskeeper.com/c/e/celebrity.thongtinluat.com.1576084.js" async></script>
+
+
+        <h1 className="mx-auto text-3xl md:text-6xl lg:text-6xl font-bold tracking-tighter leading-normal mb-4">
+          {article.name}
+        </h1>
+        <p className="mb-4 text-lg">
+          Posted: {formatDate(article.dateTimeStart)}
+        </p>
+        <Suspense fallback={<p>Loading ...</p>}>
+          <article
+            className="mx-auto content"
+            dangerouslySetInnerHTML={{ __html: article.content }}
+          />
+        </Suspense>
+      </div>
+      <div id="M936535ScriptRootC1576089"></div>
+      <script src="https://jsc.adskeeper.com/c/e/celebrity.thongtinluat.com.1576089.js" async></script>
     </main>
   );
 }
