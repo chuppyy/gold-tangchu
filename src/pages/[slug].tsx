@@ -53,7 +53,7 @@ export const getServerSideProps: GetServerSideProps<any> = async ({
     try {
         
     const response = await axios.get(
-        `${process.env.APP_API}/News/news-detail?id=${params?.slug.slice(params?.slug.lastIndexOf("-") + 1) }`
+        `${process.env.APP_API}/News/news-detail?id=${params?.slug?.slice(params?.slug?.lastIndexOf("-") + 1) }`
     );
     return {
       props: { data: response.data.data },
