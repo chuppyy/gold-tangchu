@@ -3,10 +3,11 @@
     "",
     "\\public",
     "\\src",
+    "\\src\\components",
     "\\src\\layouts",
     "\\src\\pages",
     "\\src\\pages\\home"
   ],
-  "SelectedNode": "\\public\\qcscript.js",
+  "SelectedNode": "\\tsconfig.json",
   "PreviewInSolutionExplorer": false
 }

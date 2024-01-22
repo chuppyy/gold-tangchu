@@ -50,9 +50,11 @@ export default function Page(data: any) {
 export const getServerSideProps: GetServerSideProps<any> = async ({
   params,
 }) => {
-  try {
+    try {
+        const slug = params?.slug;
+        const id = slug.slice(slug.lastIndexOf("-") + 1);
     const response = await axios.get(
-      `${process.env.APP_API}/News/news-detail?id=${params?.slug}`
+        `${process.env.APP_API}/News/news-detail?id=${id}`
     );
     return {
       props: { data: response.data.data },
