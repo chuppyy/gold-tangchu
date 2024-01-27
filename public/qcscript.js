@@ -1,6 +1,23 @@
 // check width
 window.addEventListener("load", function () {
     console.log("xxxsss", window.innerWidth)
+
+
+    var qcImgDiv = document.getElementById('qcImg');
+
+if (qcImgDiv) {
+    // Tạo đối tượng ins element
+    var insElement = document.createElement('ins');
+    insElement.className = 'adsbygoogle';
+    insElement.style.display = 'block';
+    insElement.setAttribute('data-ad-client', 'ca-pub-8079422152195086');
+    insElement.setAttribute('data-ad-slot', '8106639973');
+    insElement.setAttribute('data-ad-format', 'auto');
+    insElement.setAttribute('data-full-width-responsive', 'true');
+
+    // Chèn đối tượng ins vào thẻ div
+    qcImgDiv.appendChild(insElement);
+}
     if (window.innerWidth <= 500) {
 
         // Giua bai mgid
