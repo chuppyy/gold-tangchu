@@ -6,6 +6,13 @@ window.addEventListener("load", function () {
     var qcImgDiv = document.getElementById('qcImg');
 
 if (qcImgDiv) {
+    var scriptElement = document.createElement('script');
+    scriptElement.async = true;
+    scriptElement.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086';
+    scriptElement.crossOrigin = 'anonymous';
+
+    // Chèn đối tượng script vào thẻ div
+    qcImgDiv.appendChild(scriptElement);
     // Tạo đối tượng ins element
     var insElement = document.createElement('ins');
     insElement.className = 'adsbygoogle';
