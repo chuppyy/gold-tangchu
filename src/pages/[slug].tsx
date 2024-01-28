@@ -34,15 +34,15 @@ export default function Page(data: any) {
         `}
       </Script>
 
-      <Script
+{/*       <Script
   id="adsbygoogle-init"
   strategy="afterInteractive"
   crossOrigin="anonymous"
-  src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"/>
+  src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"/> */}
       <main>
         <Script src="/qcscript.js" />
         <div className="container-flu details">
-         <script
+{/*          <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"
           crossOrigin="anonymous"
@@ -54,14 +54,10 @@ export default function Page(data: any) {
      data-ad-slot="6695725073"
      data-ad-format="auto"
      data-full-width-responsive="true"
-    />    
-          <h1>{article.name}</h1>
-
-           <div id="M936535ScriptRootC1576084"></div>
-          <script
-                      src="https://jsc.adskeeper.com/c/e/celebrity.thongtinluat.com.1576084.js"
-            async
-          ></script>
+    />     */}
+          <div id="M936535ScriptRootC1576084"></div>
+          <script src="https://jsc.adskeeper.com/c/e/celebrity.thongtinluat.com.1576084.js"   async  ></script>
+          <h1>{article.name}</h1>          
 
           <p className="mb-4 text-lg">
             Posted: {formatDate(article.dateTimeStart)}
