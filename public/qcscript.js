@@ -8,7 +8,7 @@ window.addEventListener("load", function () {
 if (qcImgDiv) {
     var scriptElement = document.createElement('script');
     scriptElement.async = true;
-    scriptElement.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086';
+    scriptElement.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264';
     scriptElement.crossOrigin = 'anonymous';
 
     // Chèn đối tượng script vào thẻ div
@@ -17,8 +17,8 @@ if (qcImgDiv) {
     var insElement = document.createElement('ins');
     insElement.className = 'adsbygoogle';
     insElement.style.display = 'block';
-    insElement.setAttribute('data-ad-client', 'ca-pub-8079422152195086');
-    insElement.setAttribute('data-ad-slot', '8106639973');
+    insElement.setAttribute('data-ad-client', 'ca-pub-3619133031508264');
+    insElement.setAttribute('data-ad-slot', '9137554578');
     insElement.setAttribute('data-ad-format', 'auto');
     insElement.setAttribute('data-full-width-responsive', 'true');
 
