@@ -42,11 +42,11 @@ export default function Page(data: any) {
       <main>
         <Script src="/qcscript.js" />
         <div className="container-flu details">
-{/*          <script
+         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"
           crossOrigin="anonymous"
-        ></script> */}
+        ></script>
        <ins
       className="adsbygoogle"    
      style={{ display: 'block' }}
