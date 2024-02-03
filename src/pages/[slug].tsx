@@ -22,12 +22,7 @@ export default function Page(data: any) {
       <Head>
         <title>{article.name}</title>
         <meta property="og:image" content={article.avatarLink} />
-        <meta property="og:title" content={article.name} />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264"
-          crossorigin="anonymous"
-        />
+        <meta property="og:title" content={article.name} />       
       </Head>
       <Script id="gg-1" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-TQVVKFRWFL`} />
       <Script id="gg-2" strategy="lazyOnload">
@@ -39,11 +34,11 @@ export default function Page(data: any) {
         `}
       </Script>
 
-{/*       <Script
+      <Script
   id="adsbygoogle-init"
   strategy="afterInteractive"
   crossOrigin="anonymous"
-  src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"/> */}
+  src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8079422152195086"/>
       <main>
         <Script src="/qcscript.js" />
         <div className="container-flu details">
