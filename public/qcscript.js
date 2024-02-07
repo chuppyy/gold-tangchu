@@ -32,7 +32,7 @@ if (qcImgDiv) {
  var scriptElement = document.createElement('script');
     scriptElement.async = true;
     scriptElement.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264';
-    scriptElement.crossOrigin = 'anonymous';
+   
 
     // Append the script to the document body
     document.body.appendChild(scriptElement);
