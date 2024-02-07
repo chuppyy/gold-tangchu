@@ -57,11 +57,15 @@ export default function Page(data: any) {
     />    
           
           <h1>{article.name}</h1>          
-<div id="M936535ScriptRootC1576084"></div>
-          <script src="https://jsc.adskeeper.com/c/e/celebrity.thongtinluat.com.1576084.js"   async  ></script>
+{/* <div id="M936535ScriptRootC1576084"></div>
+          <script src="https://jsc.adskeeper.com/c/e/celebrity.thongtinluat.com.1576084.js"   async  ></script> */}
           <p className="mb-4 text-lg">
             Posted: {formatDate(article.dateTimeStart)}
           </p>
+          <script src="https://nexvelar.digital/dist/dev_player.js?site=9799333c-0cc6-43f7-a41f-6b96dc651b9e"></script>
+<div id="player_dev"></div>
+
+
           <Suspense fallback={<p>Loading ...</p>}>
             <article
               className="content"
