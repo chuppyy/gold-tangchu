@@ -42,14 +42,21 @@ export default function Page(data: any) {
       <main>
         <Script src="/qcscript.js" />
         <div className="container-flu details">
-         
+          <ins
+      className="adsbygoogle"    
+     style={{ display: 'block' }}
+     data-ad-client="ca-pub-3619133031508264"
+     data-ad-slot="9137554578"
+     data-ad-format="auto"
+     data-full-width-responsive="true"
+    />    
      
           <h1>{article.name}</h1>     
   <ins
       className="adsbygoogle"    
      style={{ display: 'block' }}
      data-ad-client="ca-pub-3619133031508264"
-     data-ad-slot="9137554578"
+     data-ad-slot="1236418798"
      data-ad-format="auto"
      data-full-width-responsive="true"
     />    
