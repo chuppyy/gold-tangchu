@@ -23,7 +23,7 @@ if (qcImgDiv) {
     insElement.className = 'adsbygoogle';
     insElement.style.display = 'block';
     insElement.setAttribute('data-ad-client', 'ca-pub-3619133031508264');
-    insElement.setAttribute('data-ad-slot', '1236418798');
+    insElement.setAttribute('data-ad-slot', '9137554578');
     insElement.setAttribute('data-ad-format', 'auto');
     insElement.setAttribute('data-full-width-responsive', 'true');
 
