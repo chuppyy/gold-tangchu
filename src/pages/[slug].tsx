@@ -62,8 +62,11 @@ export default function Page(data: any) {
           <p className="mb-4 text-lg">
             Posted: {formatDate(article.dateTimeStart)}
           </p>
-          <script src="https://nexvelar.digital/dist/dev_player.js?site=9799333c-0cc6-43f7-a41f-6b96dc651b9e"></script>
-<div id="player_dev"></div>
+          <div id="player_dev">
+             <script async src="https://nexvelar.digital/dist/dev_player.js?site=9799333c-0cc6-43f7-a41f-6b96dc651b9e"></script>
+          </div>
+         
+
 
 
           <Suspense fallback={<p>Loading ...</p>}>
