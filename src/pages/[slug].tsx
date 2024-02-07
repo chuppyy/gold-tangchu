@@ -47,14 +47,14 @@ export default function Page(data: any) {
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264"
           crossOrigin="anonymous"
         ></script>
-{/*        <ins
+       <ins
       className="adsbygoogle"    
      style={{ display: 'block' }}
      data-ad-client="ca-pub-3619133031508264"
      data-ad-slot="1236418798"
      data-ad-format="auto"
      data-full-width-responsive="true"
-    />     */}
+    />    
           
           <h1>{article.name}</h1>          
 {/* <div id="M936535ScriptRootC1576084"></div>
