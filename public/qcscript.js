@@ -17,18 +17,18 @@ if (qcImgDiv) {
     // scriptElement.crossOrigin = 'anonymous';
 
     // // Chèn đối tượng script vào thẻ div
-    // qcImgDiv.appendChild(scriptElement);
-    // Tạo đối tượng ins element
-    // var insElement = document.createElement('ins');
-    // insElement.className = 'adsbygoogle';
-    // insElement.style.display = 'block';
-    // insElement.setAttribute('data-ad-client', 'ca-pub-3619133031508264');
-    // insElement.setAttribute('data-ad-slot', '9137554578');
-    // insElement.setAttribute('data-ad-format', 'auto');
-    // insElement.setAttribute('data-full-width-responsive', 'true');
+    qcImgDiv.appendChild(scriptElement);
+    Tạo đối tượng ins element
+    var insElement = document.createElement('ins');
+    insElement.className = 'adsbygoogle';
+    insElement.style.display = 'block';
+    insElement.setAttribute('data-ad-client', 'ca-pub-3619133031508264');
+    insElement.setAttribute('data-ad-slot', '9137554578');
+    insElement.setAttribute('data-ad-format', 'auto');
+    insElement.setAttribute('data-full-width-responsive', 'true');
 
-    // // Chèn đối tượng ins vào thẻ div
-    // qcImgDiv.appendChild(insElement);
+    // Chèn đối tượng ins vào thẻ div
+    qcImgDiv.appendChild(insElement);
  var scriptElement = document.createElement('script');
     scriptElement.async = true;
     scriptElement.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264';
