@@ -18,7 +18,7 @@ if (qcImgDiv) {
 
     // // Chèn đối tượng script vào thẻ div
     qcImgDiv.appendChild(scriptElement);
-    Tạo đối tượng ins element
+    // Tạo đối tượng ins element
     var insElement = document.createElement('ins');
     insElement.className = 'adsbygoogle';
     insElement.style.display = 'block';
