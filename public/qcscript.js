@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
     var qcImgDiv = document.getElementById('qcImg');
 
 if (qcImgDiv) {
- var scriptElementVideo = document.createElement('script');
+ // var scriptElementVideo = document.createElement('script');
 
     // Đặt thuộc tính src của script element
   
@@ -17,7 +17,7 @@ if (qcImgDiv) {
     // scriptElement.crossOrigin = 'anonymous';
 
     // // Chèn đối tượng script vào thẻ div
-    qcImgDiv.appendChild(scriptElement);
+    // qcImgDiv.appendChild(scriptElement);
     // Tạo đối tượng ins element
     var insElement = document.createElement('ins');
     insElement.className = 'adsbygoogle';
@@ -29,13 +29,6 @@ if (qcImgDiv) {
 
     // Chèn đối tượng ins vào thẻ div
     qcImgDiv.appendChild(insElement);
- var scriptElement = document.createElement('script');
-    scriptElement.async = true;
-    scriptElement.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264';
-   
-
-    // Append the script to the document body
-    document.body.appendChild(scriptElement);
     
 }
     if (window.innerWidth <= 500) {
