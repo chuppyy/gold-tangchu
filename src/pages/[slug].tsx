@@ -110,10 +110,10 @@ export default function Page(data: any) {
       // push ads
 
       var ads = document.getElementsByClassName("adsbygoogle").length;
+      console.log("ads",ads);
       for (var i = 0; i < ads; i++) {
-        try {
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        } catch (e) { }
+        ((window as any).adsbygoogle =
+          (window as any)?.adsbygoogle || [])?.push({});
       }
     } catch (err) {
       console.log("err2222");
