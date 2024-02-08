@@ -12,6 +12,8 @@ export default function Page(data: any) {
   const article = data.data;
   useEffect(() => {
     try {
+      var qcImgDiv = document.getElementById("qcImg");
+console.log("qcImgDiv ", qcImgDiv )
 var ads = document.getElementsByClassName("adsbygoogle").length;
       console.log('ads', ads);
       for (var i = 0; i < ads; i++) {
