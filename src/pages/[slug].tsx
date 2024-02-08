@@ -13,15 +13,110 @@ export default function Page(data: any) {
   useEffect(() => {
     try {
       var qcImgDiv = document.getElementById("qcImg");
-console.log("qcImgDiv ", qcImgDiv )
-var ads = document.getElementsByClassName("adsbygoogle").length;
-      console.log('ads', ads);
-      for (var i = 0; i < ads; i++) {
-        ((window as any).adsbygoogle = (window as any)?.adsbygoogle || [])?.push({});
+
+      if (qcImgDiv) {
+        var insElement = document.createElement("ins");
+        insElement.className = "adsbygoogle";
+        insElement.style.display = "block";
+        insElement.setAttribute("data-ad-client", "ca-pub-3619133031508264");
+        insElement.setAttribute("data-ad-slot", "9137554578");
+        insElement.setAttribute("data-ad-format", "auto");
+        insElement.setAttribute("data-full-width-responsive", "true");
+
+        // Chèn đối tượng ins vào thẻ div
+        qcImgDiv.appendChild(insElement);
       }
-      
+      if (window.innerWidth <= 500) {
+        // Giua bai mgid
+
+        // Chọn thẻ div có ID "qc"
+        var qcDiv = document.getElementById("qcmgidgb");
+        if (qcDiv) {
+          // Tạo một thẻ div mới để chứa script và amp-embed
+          var scriptContainer = document.createElement("div");
+
+          // Tạo thẻ div cho script
+          var scriptDiv = document.createElement("div");
+          scriptDiv.id = "M936535ScriptRootC1576086";
+          scriptContainer.appendChild(scriptDiv);
+
+          // Tạo thẻ script
+          var scriptTag = document.createElement("script");
+          scriptTag.src =
+            "https://jsc.adskeeper.com/c/e/celebrity.thongtinluat.com.1576086.js";
+          scriptTag.async = true;
+          //  scriptContainer.appendChild(scriptTag);
+
+          // Chèn scriptContainer vào thẻ div "qc"
+          qcDiv.appendChild(scriptContainer);
+          qcDiv.appendChild(scriptTag);
+          // Chèn đoạn mã AMP
+          var ampTag = document.createElement("amp-embed");
+          ampTag.setAttribute("width", "600");
+          ampTag.setAttribute("height", "600");
+          ampTag.setAttribute("layout", "responsive");
+          ampTag.setAttribute("type", "mgid");
+          ampTag.setAttribute("data-publisher", "vbonews.com");
+          ampTag.setAttribute("data-widget", "1569695");
+          ampTag.setAttribute("data-container", "M936535ScriptRootC1576086");
+          ampTag.setAttribute("data-block-on-consent", "_till_responded");
+          scriptContainer.appendChild(ampTag);
+
+          // Chèn scriptContainer vào thẻ div "qc"
+          qcDiv.appendChild(scriptContainer);
+        }
+      }
+      //Destop
+      else {
+        // Giua bai mgid
+
+        // Chọn thẻ div có ID "qc"
+        var qcDiv = document.getElementById("qcmgidgb");
+        if (qcDiv) {
+          // Tạo một thẻ div mới để chứa script và amp-embed
+          var scriptContainer = document.createElement("div");
+
+          // Tạo thẻ div cho script
+          var scriptDiv = document.createElement("div");
+          scriptDiv.id = "M936535ScriptRootC1576086";
+          scriptContainer.appendChild(scriptDiv);
+
+          // Tạo thẻ script
+          var scriptTag = document.createElement("script");
+          scriptTag.src =
+            "https://jsc.adskeeper.com/c/e/celebrity.thongtinluat.com.1576086.js";
+          scriptTag.async = true;
+          //  scriptContainer.appendChild(scriptTag);
+
+          // Chèn scriptContainer vào thẻ div "qc"
+          qcDiv.appendChild(scriptContainer);
+          qcDiv.appendChild(scriptTag);
+          // Chèn đoạn mã AMP
+          var ampTag = document.createElement("amp-embed");
+          ampTag.setAttribute("width", "600");
+          ampTag.setAttribute("height", "600");
+          ampTag.setAttribute("layout", "responsive");
+          ampTag.setAttribute("type", "mgid");
+          ampTag.setAttribute("data-publisher", "vbonews.com");
+          ampTag.setAttribute("data-widget", "1569695");
+          ampTag.setAttribute("data-container", "M936535ScriptRootC1576086");
+          ampTag.setAttribute("data-block-on-consent", "_till_responded");
+          scriptContainer.appendChild(ampTag);
+
+          // Chèn scriptContainer vào thẻ div "qc"
+          qcDiv.appendChild(scriptContainer);
+        }
+      }
+      // push ads
+
+      var ads = document.getElementsByClassName("adsbygoogle").length;
+      for (var i = 0; i < ads; i++) {
+        try {
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (e) { }
+      }
     } catch (err) {
-      console.log('err2222');
+      console.log("err2222");
     }
   }, []);
   return (
@@ -47,7 +142,7 @@ var ads = document.getElementsByClassName("adsbygoogle").length;
   crossOrigin="anonymous"
   src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3619133031508264"/>
       <main>
-        <Script src="/qcscript.js" />
+{/*         <Script src="/qcscript.js" /> */}
         <div className="container-flu details">
           <ins
       className="adsbygoogle"    
