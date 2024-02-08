@@ -12,7 +12,11 @@ export default function Page(data: any) {
   const article = data.data;
   useEffect(() => {
     try {
-       ((window as any).adsbygoogle = (window as any)?.adsbygoogle || [])?.push({});
+
+      for (var i = 0; i < 2; i++) {
+        ((window as any).adsbygoogle = (window as any)?.adsbygoogle || [])?.push({});
+      }
+      
     } catch (err) {
       console.log('err2222');
     }
