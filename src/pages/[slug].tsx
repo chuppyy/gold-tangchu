@@ -12,8 +12,9 @@ export default function Page(data: any) {
   const article = data.data;
   useEffect(() => {
     try {
-
-      for (var i = 0; i < 1; i++) {
+var ads = document.getElementsByClassName("adsbygoogle").length;
+      console.log('ads', ads);
+      for (var i = 0; i < ads; i++) {
         ((window as any).adsbygoogle = (window as any)?.adsbygoogle || [])?.push({});
       }
       
