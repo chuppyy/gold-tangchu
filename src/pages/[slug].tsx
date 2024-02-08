@@ -50,21 +50,12 @@ export default function Page(data: any) {
       className="adsbygoogle"    
      style={{ display: 'block' }}
      data-ad-client="ca-pub-3619133031508264"
-     data-ad-slot="9137554578"
+     data-ad-slot="1236418798"
      data-ad-format="auto"
      data-full-width-responsive="true"
     />    
      
           <h1>{article.name}</h1>     
-  <ins
-      className="adsbygoogle"    
-     style={{ display: 'block' }}
-     data-ad-client="ca-pub-3619133031508264"
-     data-ad-slot="1236418798"
-     data-ad-format="auto"
-     data-full-width-responsive="true"
-    />    
-
           
 {/* <div id="M936535ScriptRootC1576084"></div>
           <script src="https://jsc.adskeeper.com/c/e/celebrity.thongtinluat.com.1576084.js"   async  ></script> */}
