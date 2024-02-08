@@ -13,7 +13,7 @@ export default function Page(data: any) {
   useEffect(() => {
     try {
 
-      for (var i = 0; i < 2; i++) {
+      for (var i = 0; i < 1; i++) {
         ((window as any).adsbygoogle = (window as any)?.adsbygoogle || [])?.push({});
       }
       
