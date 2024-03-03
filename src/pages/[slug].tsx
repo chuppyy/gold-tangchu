@@ -220,7 +220,7 @@ export async function getStaticProps({ params }: { params: any }) {
     ).then((res) => res.json());
     return {
       props: { data: response.data },
-      revalidate: 300
+      revalidate: 36000
     };
   } catch (error) {
     return {
