@@ -78,7 +78,6 @@ export default function Page(data: any) {
           ampTag.setAttribute("data-container", "M936535ScriptRootC1576086");
           ampTag.setAttribute("data-block-on-consent", "_till_responded");
           scriptContainer.appendChild(ampTag);
-
           // Chèn scriptContainer vào thẻ div "qc"
           qcDiv.appendChild(scriptContainer);
         }
